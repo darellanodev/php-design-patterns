@@ -6,20 +6,21 @@
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body>
+<p><a href="../../index.php">&larr; Back to main index</a></p>
 <pre><?php
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__.'/../../vendor/autoload.php';
 
-use App\FactoryMethod\LoggersExample\FileLoggerFactory;
 use App\FactoryMethod\LoggersExample\DatabaseLoggerFactory;
+use App\FactoryMethod\LoggersExample\FileLoggerFactory;
 
 $fileLoggerFactory = new FileLoggerFactory();
-$fileLoggerFactory->log("This is a file log message.");
+$fileLoggerFactory->log('This is a file log message.');
 
 echo "\n";
 
 $databaseLoggerFactory = new DatabaseLoggerFactory();
-$databaseLoggerFactory->log("This is a database log message.");
+$databaseLoggerFactory->log('This is a database log message.');
 
 ?></pre>
 </body>
