@@ -1,4 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Managers Example</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+<pre><?php
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
@@ -8,5 +16,11 @@ use App\FactoryMethod\ManagersExample\MarketingManager;
 $devManager = new DevelopmentManager();
 $devManager->takeInterview(); // Output: Asking about design patterns
 
+echo "\n";
+
 $marketingManager = new MarketingManager();
 $marketingManager->takeInterview(); // Output: Asking about community building.
+
+?></pre>
+</body>
+</html>

@@ -1,4 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Network Example</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+<pre><?php
 
 require_once __DIR__ . '/../../vendor/autoload.php';
 
@@ -29,3 +37,7 @@ echo "\n\n";
 
 echo "Testing ConcreteCreator2:\n";
 clientCode(new LinkedInPoster("john_smith@example.com", "******"));
+
+?></pre>
+</body>
+</html>
