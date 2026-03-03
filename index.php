@@ -21,6 +21,7 @@
     <div class="pattern-group">
         <h2>Factory Method Pattern</h2>
         <ul>
+            <li><a href="factory_method/notification_system/index.php">Notification System Example</a></li>
             <li><a href="factory_method/social_network/index.php">Social Network Example</a></li>
             <li><a href="factory_method/managers/index.php">Managers Example</a></li>
             <li><a href="factory_method/loggers/index.php">Loggers Example</a></li>
@@ -29,4 +30,4 @@
 
 </body>
 
-</html>
+</html> 
