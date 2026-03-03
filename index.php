@@ -14,16 +14,16 @@
     <div class="pattern-group">
         <h2>Simple Factory Pattern</h2>
         <ul>
-            <li><a href="simple_factory/door_example/index.php">Door Factory Example</a></li>
+            <li><a href="simple_factory/door/index.php">Door Factory Example</a></li>
         </ul>
     </div>
 
     <div class="pattern-group">
         <h2>Factory Method Pattern</h2>
         <ul>
-            <li><a href="factory_method/social_network_example/index.php">Social Network Example</a></li>
-            <li><a href="factory_method/managers_example/index.php">Managers Example</a></li>
-            <li><a href="factory_method/loggers_example/index.php">Loggers Example</a></li>
+            <li><a href="factory_method/social_network/index.php">Social Network Example</a></li>
+            <li><a href="factory_method/managers/index.php">Managers Example</a></li>
+            <li><a href="factory_method/loggers/index.php">Loggers Example</a></li>
         </ul>
     </div>
 
