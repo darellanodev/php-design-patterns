@@ -11,9 +11,9 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use App\FactoryMethod\SocialNetworkExample\FacebookPoster;
-use App\FactoryMethod\SocialNetworkExample\LinkedInPoster;
-use App\FactoryMethod\SocialNetworkExample\SocialNetworkPoster;
+use App\FactoryMethod\SocialNetwork\FacebookPoster;
+use App\FactoryMethod\SocialNetwork\LinkedInPoster;
+use App\FactoryMethod\SocialNetwork\SocialNetworkPoster;
 
 /**
  * The client code can work with any subclass of SocialNetworkPoster since it

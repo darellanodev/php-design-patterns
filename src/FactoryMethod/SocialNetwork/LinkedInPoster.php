@@ -1,13 +1,14 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * This Concrete Creator supports LinkedIn.
  */
 class LinkedInPoster extends SocialNetworkPoster
 {
-    private $email, $password;
+    private $email;
+    private $password;
 
     public function __construct(string $email, string $password)
     {

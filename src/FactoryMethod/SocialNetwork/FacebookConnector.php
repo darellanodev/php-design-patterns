@@ -1,13 +1,14 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * This Concrete Product implements the Facebook API.
  */
 class FacebookConnector implements SocialNetworkConnector
 {
-    private $login, $password;
+    private $login;
+    private $password;
 
     public function __construct(string $login, string $password)
     {
@@ -17,7 +18,7 @@ class FacebookConnector implements SocialNetworkConnector
 
     public function logIn(): void
     {
-        echo "Send HTTP API request to log in user $this->login with " .
+        echo "Send HTTP API request to log in user $this->login with ".
             "password $this->password\n";
     }
 

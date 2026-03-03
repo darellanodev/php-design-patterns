@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * The Product interface declares behaviors of various types of products.

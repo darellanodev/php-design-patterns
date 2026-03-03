@@ -1,8 +1,6 @@
 <?php
 
-namespace App\SimpleFactory\DoorExample;
-
-use App\SimpleFactory\DoorExample\Door;
+namespace App\SimpleFactory\Door;
 
 class WoodenDoor implements Door
 {

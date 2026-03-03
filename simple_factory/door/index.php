@@ -11,7 +11,7 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use App\SimpleFactory\DoorExample\DoorFactory;
+use App\SimpleFactory\Door\DoorFactory;
 
 // Make me a door of 100x200
 $door = DoorFactory::makeDoor(100, 200);

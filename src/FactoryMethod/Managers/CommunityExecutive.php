@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\ManagersExample;
+namespace App\FactoryMethod\Managers;
 
 class CommunityExecutive implements Interviewer
 {

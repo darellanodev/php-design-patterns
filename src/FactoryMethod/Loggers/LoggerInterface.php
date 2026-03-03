@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\LoggersExample;
+namespace App\FactoryMethod\Loggers;
 
 interface LoggerInterface
 {

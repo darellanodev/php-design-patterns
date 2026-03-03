@@ -11,8 +11,8 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use App\FactoryMethod\ManagersExample\DevelopmentManager;
-use App\FactoryMethod\ManagersExample\MarketingManager;
+use App\FactoryMethod\Managers\DevelopmentManager;
+use App\FactoryMethod\Managers\MarketingManager;
 
 $devManager = new DevelopmentManager();
 $devManager->takeInterview(); // Output: Asking about design patterns

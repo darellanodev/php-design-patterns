@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * The Creator declares a factory method that can be used as a substitution for

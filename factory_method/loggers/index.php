@@ -11,8 +11,8 @@
 
 require_once __DIR__.'/../../vendor/autoload.php';
 
-use App\FactoryMethod\LoggersExample\DatabaseLoggerFactory;
-use App\FactoryMethod\LoggersExample\FileLoggerFactory;
+use App\FactoryMethod\Loggers\DatabaseLoggerFactory;
+use App\FactoryMethod\Loggers\FileLoggerFactory;
 
 $fileLoggerFactory = new FileLoggerFactory();
 $fileLoggerFactory->log('This is a file log message.');

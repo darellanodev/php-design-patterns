@@ -1,11 +1,11 @@
 <?php
 
-namespace App\FactoryMethod\LoggersExample;
+namespace App\FactoryMethod\Loggers;
 
 class FileLogger implements LoggerInterface
 {
     public function log(string $message): void
     {
-        echo "[FILE LOG] " . $message . PHP_EOL;
+        echo '[FILE LOG] '.$message.PHP_EOL;
     }
 }

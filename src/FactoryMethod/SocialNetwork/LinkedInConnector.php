@@ -1,13 +1,14 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * This Concrete Product implements the LinkedIn API.
  */
 class LinkedInConnector implements SocialNetworkConnector
 {
-    private $email, $password;
+    private $email;
+    private $password;
 
     public function __construct(string $email, string $password)
     {
@@ -17,7 +18,7 @@ class LinkedInConnector implements SocialNetworkConnector
 
     public function logIn(): void
     {
-        echo "Send HTTP API request to log in user $this->email with " .
+        echo "Send HTTP API request to log in user $this->email with ".
             "password $this->password\n";
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\SocialNetworkExample;
+namespace App\FactoryMethod\SocialNetwork;
 
 /**
  * This Concrete Creator supports Facebook. Remember that this class also
@@ -9,7 +9,8 @@ namespace App\FactoryMethod\SocialNetworkExample;
  */
 class FacebookPoster extends SocialNetworkPoster
 {
-    private $login, $password;
+    private $login;
+    private $password;
 
     public function __construct(string $login, string $password)
     {
