@@ -11,12 +11,16 @@
 <body>
     <h1>Design Patterns Examples</h1>
 
+    <h2>Creational Patterns</h2>
+
     <div class="pattern-group">
         <h2>Simple Factory Pattern</h2>
         <ul>
             <li><a href="creational_patterns/simple_factory/door/index.php">Door Factory Example</a></li>
         </ul>
     </div>
+
+
 
     <div class="pattern-group">
         <h2>Factory Method Pattern</h2>
@@ -28,6 +32,15 @@
         </ul>
     </div>
 
+    <h2>Structural Patterns</h2>
+
+    <div class="pattern-group">
+        <h2>Adapter</h2>
+        <ul>
+            <li><a href="structural_patterns/adapter/audio_player/index.php">Audio Player Example</a></li>
+        </ul>
+    </div>
+
 </body>
 
-</html> 
+</html>
